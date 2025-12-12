@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-def concat(str1: str, str2: str) -> str:
-    """
-    Concatenate two strings.
-    """
-    return str1 + str2
+"""Module that provides a function to add two floats."""
+
+
+def add(a: float, b: float) -> float:
+    """Return the sum of two floats."""
+    return a + b
